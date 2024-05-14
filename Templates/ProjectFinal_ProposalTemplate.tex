@@ -1,0 +1,124 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CSCI 1430 Written Question Template
+%
+% This is a LaTeX document. LaTeX is a markup language for producing documents.
+% Your task is to answer the questions by filling out this document, then to
+% compile this into a PDF document.
+%
+% TO COMPILE:
+% > pdflatex thisfile.tex
+
+% If you do not have LaTeX, your options are:
+% - VSCode extension: https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop
+% - Online Tool: https://www.overleaf.com/ - most LaTeX packages are pre-installed here (e.g., \usepackage{}).
+% - Personal laptops (all common OS): http://www.latex-project.org/get/ 
+%
+% If you need help with LaTeX, please come to office hours.
+% Or, there is plenty of help online:
+% https://en.wikibooks.org/wiki/LaTeX
+%
+% Good luck!
+% The CSCI 1430 staff
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% How to include two graphics on the same line:
+% 
+% \includegraphics[width=0.49\linewidth]{yourgraphic1.png}
+% \includegraphics[width=0.49\linewidth]{yourgraphic2.png}
+%
+% How to include equations:
+%
+% \begin{equation}
+% y = mx+c
+% \end{equation}
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue]{hyperref}
+\usepackage[a4paper,margin=1.5in]{geometry}
+\usepackage{stackengine,graphicx}
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+\usepackage{microtype}
+\usepackage{times}
+\usepackage{booktabs}
+
+% From https://ctan.org/pkg/matlab-prettifier
+\usepackage[numbered,framed]{matlab-prettifier}
+
+\frenchspacing
+\setlength{\parindent}{0cm} % Default is 15pt.
+\setlength{\parskip}{0.3cm plus1mm minus1mm}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Final Project Proposal}
+\rhead{CSCI 1430}
+\rfoot{\thepage}
+
+\date{}
+
+\title{\vspace{-1cm}Final Project Proposal}
+
+\begin{document}
+\maketitle
+\vspace{-1cm}
+\thispagestyle{fancy}
+
+\emph{Please make this document anonymous. Your team name should be anonymous.}
+
+\textbf{Team name: \emph{HERE PLEASE}}
+
+\emph{Note:} when submitting this document to Gradescope, make sure to add all other team members to the submission. This can be done on the submission page after uploading (top right).
+
+If you need to find team members, please use the thread under `Final Project - Find Teammates' on Ed---pitch an idea!
+
+\section*{Proposal Instructions}
+
+For your project proposal, please submit a one-to-two page document answering the questions below.
+
+\begin{itemize}
+  \item What is your project idea?  
+  \item What is the socio-historical context that this project lives in? 
+  \item Please list three stakeholders that your project could impact, and describe how it could impact them.
+  \item -----
+  \item What are the skills of the team members? Conduct a skill assessment!
+  \item What data will you use?
+  \item What software/hardware will you use?
+  \item Who will do what? [For anonymity, please use `'`Team member 1 will...'' or, alternatively, take on daring pseudonames.]
+  \item How will you know whether you have made progress? What will you measure?
+  \item What technical problems do you foresee or have?
+  \item Is there anything that we can do to help? E.G., resources, equipment.
+\end{itemize}
+
+Feel free to use these as paragraph headings, and also please include any media, references, etc.
+
+\section*{After Proposal Submission}
+
+\subsection*{TA Assignment}
+
+After handing in your project proposal, your team will be assigned a TA to assist you.
+You should aim to meet with your TA once a week; this replaces TA office hours.
+
+If you haven't heard from your TA a few days after the project proposal handin, please make a private Ed post and let us know which team you're on.
+
+In your first meeting with your TA, your goal is to have your idea sanity-checked:
+
+\begin{itemize}
+  \item Do you actually have the data?
+  \item Do you actually have the compute?
+  \item Is there code you need but don't have access to?
+  \item Is there an area where you need help?
+\end{itemize}
+
+Some of these things will be outlined in your proposals, but talking through it with your TA as soon as possible will help you find potential road blocks and get the ball rolling.
+
+\end{document}

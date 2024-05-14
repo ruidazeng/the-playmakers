@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ProjectFinal_ProjectReportTemplate.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 35 items.
+Database file #1: ProjectFinal_ProjectReportTemplate.bib
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            516 strings with 4621 characters,
+and the built_in function-call counts, 934 in all, are:
+= -- 83
+> -- 58
+< -- 0
++ -- 24
+- -- 20
+* -- 70
+:= -- 176
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 31
+empty$ -- 61
+format.name$ -- 20
+if$ -- 179
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 16
+quote$ -- 0
+skip$ -- 21
+stack$ -- 0
+substring$ -- 34
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 0
+while$ -- 7
+width$ -- 4
+write$ -- 33
