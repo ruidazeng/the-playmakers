@@ -1,4 +1,12 @@
-# NFL Position Classification Through YOLO
+# The Playmakers
+
+**John Michael Slezak, Atif Khan, Chenhao Lu, Ruida Zeng**  
+**Brown University CS 1430 Computer Vision Final Project**
+
+**TA Mentor:** Joel Manasseh  
+**Professor:** Srinath Sridhar  
+
+## NFL Position Classification Through YOLO
 
 ![image](https://github.com/user-attachments/assets/fdcc2da0-96f8-4be9-ba68-f381dbbcbf30)
 ![image](https://github.com/user-attachments/assets/426cc15a-83cb-4eec-a6ab-a2581b76562f)
@@ -65,16 +73,5 @@ Potential improvements include:
 - Expanding the dataset for diverse formations and player setups.
 - Experimenting with alternative models like DETR or Swin Transformer for accuracy improvements in dense formations.
 - Implementing tracking features for in-play analysis.
-
-
-## Contributors
-
-John Michael Slezak
-
-Atif Khan
-
-Chenhao Lu
-
-Ruida Zeng
 
 ### For questions or suggestions, please reach out via GitHub Issues or email. 
