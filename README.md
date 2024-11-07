@@ -45,10 +45,19 @@ Once setup is complete, run the application locally to process NFL footage and v
 
 ## Evaluation
 
-The model was evaluated on:
-- **Detection Accuracy**: Achieved mean accuracy precision (mAP) of 0.759 at a confidence threshold of 0.5.
-- **Performance on Diverse Positions**: Strong results for wide receivers and cornerbacks, with room for improvement for more densely packed formations.
-- **Confusion Analysis**: Visualized performance using confusion matrices and precision-recall curves.
+The model's performance was assessed using the following metrics, based on detailed visualizations:
+
+- **F1-Confidence Curve**: The F1 score peaked at 0.62 at a confidence threshold of 0.229 across all classes, reflecting an effective balance between precision and recall at this threshold. The curve shows that Wide Receiver and Safety positions maintain high F1 scores across varying confidence levels, while positions like Fullback and Tight End experience more fluctuation, indicating variable performance across different positions.  
+  <img src="https://github.com/user-attachments/assets/ec6ac025-fd98-490b-a9ee-4e5ae1c00b3c" width="500"/>
+
+- **Precision-Recall Curve**: Achieved a mean average precision (mAP) of 0.759 at an IoU threshold of 0.5, with class-specific precision scores such as 0.942 for Wide Receiver, 0.885 for Corner Back, and 0.879 for Safety. This curve highlights that certain positions, particularly Wide Receiver and Safety, have high precision and recall, while others, like Fullback (0.454), exhibit more challenges in maintaining consistent accuracy.  
+  <img src="https://github.com/user-attachments/assets/1d09e654-94bc-4795-917c-616135eb0e9d" width="500"/>
+
+- **Confusion Matrix**: The model displays strong classification accuracy for positions like Wide Receiver (234 true positives) and Corner Back (200 true positives), but shows confusion among some positions, such as misclassifying Linebackers and Safeties. Background interference and similar player formations contribute to some of the confusion, particularly for positions like Running Back and Quarterback.  
+  <img src="https://github.com/user-attachments/assets/7b4ce9ac-fb60-48d3-a80e-9bae13c234e9" width="500"/>
+
+
+These metrics collectively highlight the model's strengths in detecting key positions on the field, with room for improvement in differentiating more ambiguous positions under varying formations.
 
 ## Future Directions
 
